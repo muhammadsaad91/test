@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <p>This is value</p> -->
+    <p id="w"></p>
+    <script>
+        const arr = [{name: 'Saad',id:1},
+                     {name: 'islam',id:2},
+                     {name: 'haram',id:3}];
+        const narr = arr.map((val)=> {
+            return `My name is ${val.name},My id is ${val.id}`;
+        });
+        //   console.log(arr);
+        document.getElementById('w').innerHTML = narr;
+        console.log(narr);
+
+    </script>
+</body>
+
+</html>
