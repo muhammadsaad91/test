@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-first-app-hello-world/static/css/main.5d64dfac.css",
+    "main.js": "/React-first-app-hello-world/static/js/main.7ace3436.js",
+    "static/js/787.a9120f67.chunk.js": "/React-first-app-hello-world/static/js/787.a9120f67.chunk.js",
+    "static/media/logo.svg": "/React-first-app-hello-world/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-first-app-hello-world/index.html",
+    "main.5d64dfac.css.map": "/React-first-app-hello-world/static/css/main.5d64dfac.css.map",
+    "main.7ace3436.js.map": "/React-first-app-hello-world/static/js/main.7ace3436.js.map",
+    "787.a9120f67.chunk.js.map": "/React-first-app-hello-world/static/js/787.a9120f67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d64dfac.css",
+    "static/js/main.7ace3436.js"
+  ]
+}
