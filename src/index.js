@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Data from './Data'
 import App from './App'
 // import mzpr from './images/mzpr.jpg'
 // import osman from './images/osman.jpg'
