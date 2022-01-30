@@ -8,12 +8,13 @@ const App=()=>{
           let curTime=new Date().toLocaleTimeString();
           setTime(curTime);
     };
+    setInterval(clicked,1000);
     return(
         <>
-        <div className="heading-main">
-        <h3>{time}</h3>
-        <button className="btn" onClick={clicked}>Click me to get Current Time</button>
-        </div>
+        
+        <h1 className="cards">{time}</h1>
+        
+        
         </>
     );
 
