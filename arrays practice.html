@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <p id="nm"></p>
+        <script>
+     const arr = ['saad','mana','shuba','haha','chkhc','knfh'];
+     const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+     const myBest = fruits.slice(1,4);
+     const num1= [2,3,,5,5];
+     const num2= [ 11,22,35,37,8,7,2,89];
+     myBest.push('new')
+     myBest.splice(1,1,'saad abba')
+     const narr =myBest.map ((va) => {
+          return (`i am ${va}<br>`)
+     });
+     const b=arr.concat(fruits);
+     console.log(b)
+    
+    const nearr=fruits.map((valu)=>{
+         return ('i love ')+(` ${valu}<br><br>but more  <br>`)
+            });
+            console.log(nearr);
+            document.write(nearr.concat());
+//      console.log(narr);
+     // use fir write on webpage using js
+     // document.write(concat(num1,num2));
+     // document.getElementById('nm').innerHTML= narr;
+     // document.getElementById('nm').innerHTML = narr;
+     const getUnion=()=>{
+   let addarr=[ ...num1 , ...num2];
+   //this remove same items 
+   return[ ...new Set( addarr)]
+     };
+     // console.log(getUnion());
+     // getUnion();
+     // console.log(num1)
+     // console.log(num2)
+     </script>
+</body>
+     </html>
