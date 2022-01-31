@@ -5,8 +5,11 @@ padding: 0%;
 }
 .cards{
     margin: auto;
-    width: 50%;
-    text-align: center;
+    font-size: 200px;
+    color: rgb(15, 9, 17);
+    width: 90%;
+    /* text-align: center; */
+    box-sizing: content-box;
     /* border: 3px solid green; */
     padding: 135px;
     height: 50%;
