@@ -1,22 +1,24 @@
 import React, { useState } from "react";
 
-// console.log(curdate);
 const App=()=>{
-    let curTime=new Date().toLocaleTimeString();
-    const [time,setTime] = useState(curTime);
-    const clicked =()=>{
-          let curTime=new Date().toLocaleTimeString();
-          setTime(curTime);
+    
+    const yello="yellow"
+    const [bg,setbg]= useState(yello);
+    const [bgn,setbgn]=useState('saad')
+    const name=()=>{
+         setbgn("saad bhai")
     };
-    setInterval(clicked,1000);
-    return(
-        <>
-        
-        <h1 className="cards">{time}</h1>
-        
-        
-        </>
-    );
-
+    const bgchange=()=>{
+      const purpl="purple"
+         setbg(purpl)
+    }; 
+return(
+    <>
+    <div style={{ backgroundColor : bg}}className="card">
+    <button onClick={bgchange} onDoubleClick={name}>{bgn} </button>
+    </div>
+    </>
+);
 };
+
 export default App;
