@@ -5,11 +5,11 @@ padding: 0%;
 }
 .cards{
     margin: auto;
-    font-size: 200px;
+    font-size: 100px;
     color: rgb(15, 9, 17);
-    width: 90%;
-    /* text-align: center; */
-    box-sizing: content-box;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
     /* border: 3px solid green; */
     padding: 135px;
     height: 50%;
