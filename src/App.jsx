@@ -1,24 +1,27 @@
 import React, { useState } from "react";
+import Data from './Data'
+import Buton from './Buton'
 
-const App=()=>{
-    
-    const yello="yellow"
-    const [bg,setbg]= useState(yello);
-    const [bgn,setbgn]=useState('saad')
-    const name=()=>{
-         setbgn("saad bhai")
-    };
-    const bgchange=()=>{
-      const purpl="purple"
-         setbg(purpl)
-    }; 
-return(
-    <>
-    <div style={{ backgroundColor : bg}}className="card">
-    <button onClick={bgchange} onDoubleClick={name}>{bgn} </button>
+
+const App = () => {
+
+
+    return (
+        <>
+<h1>My All Projects on React js </h1>
+<div className="card">
+     
+
+       {Data.map(function but(value){
+    return(
+        <Buton name={value.name}
+        link={value.link} />
+    );
+})}
     </div>
-    </>
-);
+        </>
+    );
 };
+// console.log(narr)
 
 export default App;
