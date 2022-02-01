@@ -8,7 +8,7 @@ setchng('This is Checked by You')
     return(
         <>
         <a href={props.link} target='_blank'>
-        <button onClick={chng}>{name}</button>
+        <button onMouseEnter={chng}>{name}</button>
         </a>
         </>
     );
