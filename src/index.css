@@ -30,15 +30,18 @@ color: rgb(172, 238, 243);
  }
 button{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 15rem;
   height: 7rem;
   cursor: pointer;
   border-radius: 2rem;
   background-color: aqua;
-  color: black;
+  color: rgb(17, 17, 22);
   /* box-sizing: border-box; */
-  text-overflow: none;
+  /* text-overflow: none; */
+  overflow-wrap: break-word;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 button:hover{
   background-color: black;
