@@ -11,14 +11,18 @@ const App = () => {
 <h1>My All Projects on React js </h1>
 <h2>(Muhammad SaAd)</h2>
 <div className="card">
-     
+   {/* //make a map function to show all the data from Data.js */}
 
-       {Data.map(function but(value){
-    return(
-        <Buton name={value.name}
-        link={value.link} />
-    );
-})}
+    {Data.map(Data => {
+        return (
+            <Buton name ={Data.name}
+            link={Data.link}/>
+        )
+    })
+    }
+
+
+   
     </div>
         </>
     );
@@ -26,3 +30,9 @@ const App = () => {
 // console.log(narr)
 
 export default App;
+// {Data.map(function but(value){
+//     return(
+//         <Buton name={value.name}
+//         link={value.link} />
+//     );
+// })}
